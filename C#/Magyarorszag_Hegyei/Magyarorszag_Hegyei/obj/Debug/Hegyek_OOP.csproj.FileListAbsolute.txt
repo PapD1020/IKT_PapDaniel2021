@@ -1,0 +1,7 @@
+C:\Users\Tanulo\Pap Dániel\IKT\C#\Magyarorszag_Hegyei\Magyarorszag_Hegyei\bin\Debug\Magyarorszag_Hegyei.exe.config
+C:\Users\Tanulo\Pap Dániel\IKT\C#\Magyarorszag_Hegyei\Magyarorszag_Hegyei\bin\Debug\Magyarorszag_Hegyei.exe
+C:\Users\Tanulo\Pap Dániel\IKT\C#\Magyarorszag_Hegyei\Magyarorszag_Hegyei\bin\Debug\Magyarorszag_Hegyei.pdb
+C:\Users\Tanulo\Pap Dániel\IKT\C#\Magyarorszag_Hegyei\Magyarorszag_Hegyei\obj\Debug\Hegyek_OOP.csproj.AssemblyReference.cache
+C:\Users\Tanulo\Pap Dániel\IKT\C#\Magyarorszag_Hegyei\Magyarorszag_Hegyei\obj\Debug\Hegyek_OOP.csproj.CoreCompileInputs.cache
+C:\Users\Tanulo\Pap Dániel\IKT\C#\Magyarorszag_Hegyei\Magyarorszag_Hegyei\obj\Debug\Magyarorszag_Hegyei.exe
+C:\Users\Tanulo\Pap Dániel\IKT\C#\Magyarorszag_Hegyei\Magyarorszag_Hegyei\obj\Debug\Magyarorszag_Hegyei.pdb
