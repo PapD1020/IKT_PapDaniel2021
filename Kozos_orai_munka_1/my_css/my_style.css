@@ -5,3 +5,7 @@ body{
 .bold_style{
     font-weight: bold;
 }
+
+.to_center{
+    text-align: center;
+}

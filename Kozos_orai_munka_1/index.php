@@ -13,8 +13,18 @@
 </head>
 <body>
 
-    <div class="row">
-        <h1>Welcome</h1>
+    <div class="container">
+        <div class="row justify-content-md-center bold_style to_center">
+            <div class="col col-lg-2">
+                Logo
+            </div>
+            <div class="col-md-auto">
+                <h2>Header</h2>
+            </div>
+            <div class="col col-lg-2">
+                Donate
+            </div>
+        </div>
     </div>
 
     <div class="container-fluid">
@@ -25,12 +35,16 @@
 
             <div class="col-sm-4">
                 <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label bold_style">User name</label>
+                    <input type="text" class="form-control" id="userNameInput" placeholder="Unknown User">
+                </div>
+                <div class="mb-3">
                     <label for="formGroupExampleInput" class="form-label bold_style">Email</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="email@email.com">
+                    <input type="text" class="form-control" id="userEmailInput" placeholder="email@email.com">
                 </div>
                 <div class="mb-3">
                     <label for="formGroupExampleInput2" class="form-label bold_style">Password</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Password123$">
+                    <input type="text" class="form-control" id="userPasswordInput" placeholder="Password123$">
                 </div>
                 <div>
                     <button type="submit" class="btn btn-primary bold_style">Register</button>
@@ -39,11 +53,18 @@
         </div>
     </div>
 
-    <div class="row">
-        <footer class="fixed-bottom">
-            <h2>Footer things</h2>
-        </footer>
+    <div class="container fixed-bottom">
+        <div class="row justify-content-md-center bold_style to_center">
+            <div class="col col-lg-2">
+                Privacy policy
+            </div>
+            <div class="col-md-auto">
+                Footer
+            </div>
+            <div class="col col-lg-2">
+                Contact
+            </div>
+        </div>
     </div>
-
 </body>
 </html>
