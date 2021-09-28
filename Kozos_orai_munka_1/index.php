@@ -14,7 +14,7 @@
 <body>
 
     <div class="row">
-            <h1>Welcome</h1>
+        <h1>Welcome</h1>
     </div>
 
     <div class="container-fluid">
@@ -25,22 +25,24 @@
 
             <div class="col-sm-4">
                 <div class="mb-3">
-                    <label for="formGroupExampleInput" class="form-label">Email</label>
+                    <label for="formGroupExampleInput" class="form-label bold_style">Email</label>
                     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="email@email.com">
                 </div>
                 <div class="mb-3">
-                    <label for="formGroupExampleInput2" class="form-label">Password</label>
+                    <label for="formGroupExampleInput2" class="form-label bold_style">Password</label>
                     <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Password123$">
                 </div>
                 <div>
-                    <button type="submit" class="btn btn-primary">Register</button>
+                    <button type="submit" class="btn btn-primary bold_style">Register</button>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="row">
+        <footer class="fixed-bottom">
             <h2>Footer things</h2>
+        </footer>
     </div>
 
 </body>
