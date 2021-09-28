@@ -1,16 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<form>
+    <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label bold_style">User name</label>
+        <input type="text" class="form-control" id="userNameInputLogin" placeholder="">
+    </div>
+    <div class="mb-3">
+        <label for="formGroupExampleInput4" class="form-label bold_style">Password</label>
+        <input type="text" class="form-control" id="userPasswordInputLogin" placeholder="">
+    </div>
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="js/bootstrap.bundle.min.js"></script>
-
-    <title>KOM1 - Login page</title>
-</head>
-<body>
-    
-</body>
-</html>
+    <div>
+        <button id="registerButton" type="submit" class="btn btn-primary bold_style">Login</button>
+        <a class="inactiveButton" href="index.php?id=reg">Register</a>
+    </div>
+</form>
