@@ -31,3 +31,14 @@ body{
     border-top: 5px;
     border-color: black;
 }
+
+#loginButton{
+    padding: 10px;
+    font-style: italic;
+    color: black;
+}
+
+#loginButton:hover{
+    font-weight: bold;
+    font-style: normal;
+}
