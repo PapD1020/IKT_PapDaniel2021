@@ -18,12 +18,20 @@
 
     <div class="container-fluid">
         <div class="row">
-                <div class="col-sm-8 bg-primary">
-                    <p>Content</p>
+            <div class="col-sm-8">
+                <p>Content</p>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Email</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="email@email.com">
                 </div>
-                <div class="col-sm-4 bg-dark">
-                    <p>From</p>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Password</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Password123$">
                 </div>
+            </div>
         </div>
     </div>
 
