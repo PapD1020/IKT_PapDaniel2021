@@ -9,3 +9,7 @@ body{
 .to_center{
     text-align: center;
 }
+
+.padding10{
+    padding: 10px;
+}
