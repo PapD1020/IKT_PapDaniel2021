@@ -13,7 +13,7 @@
 </head>
 <body>
 
-    <div class="container">
+    <div class="container border_bottom">
         <div class="row justify-content-md-center bold_style to_center padding10">
             <div class="col col-lg-2">
                 Logo
@@ -69,7 +69,7 @@
         </div>
     </div>
 
-    <div class="container fixed-bottom">
+    <div class="container fixed-bottom border_top">
         <div class="row justify-content-md-center bold_style to_center padding10">
             <div class="col col-lg-2">
                 Privacy policy

@@ -13,3 +13,21 @@ body{
 .padding10{
     padding: 10px;
 }
+
+.backgroundColor1{
+    background-color: #e22bdf;
+}
+
+.backgroundColor2{
+    background-color: #2e2be2;
+}
+
+.border_bottom{
+    border-bottom: 5px;
+    border-color: black;
+}
+
+.border_top{
+    border-top: 5px;
+    border-color: black;
+}
