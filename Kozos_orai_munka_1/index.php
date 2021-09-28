@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="my_css/my_style.css">
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="my_javascript/my_script.js"></script>
 
     <title>KOM1 - Front page</title>
 </head>
