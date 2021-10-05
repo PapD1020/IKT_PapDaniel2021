@@ -14,6 +14,41 @@
 
     //Származtatott osztály 01 létrehozása - login űrlap validálása
     class LoginCheck extends Forms{
+        function __construct($name, $pw){
+            $this->userName = $name;
+            $this->password = $pw;
+        }
+        /**
+         * Get the value of userName
+         */ 
+        public function getUserName()
+        {
+                return $this->userName;
+        }
+
+        /**
+         * Get the value of password
+         */ 
+        public function getPassword()
+        {
+                return $this->password;
+        }
+
+        /**
+         * Get the value of userNameError
+         */ 
+        public function getUserNameError()
+        {
+                return $this->userNameError;
+        }
+
+        /**
+         * Get the value of passwordError
+         */ 
+        public function getPasswordError()
+        {
+                return $this->passwordError;
+        }
 
     }
 
