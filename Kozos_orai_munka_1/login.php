@@ -6,7 +6,7 @@
         $log = new LoginCheck($_POST['userName1'], $_POST['userPass1']);
     }
     else{
-        $log = new LoginCheck("Figyelj név", "Figyelj email");
+        $log = new LoginCheck("", "");
     }
 ?>
 

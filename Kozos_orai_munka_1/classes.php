@@ -21,6 +21,12 @@
             if(empty($name)){
                 $this->userNameError = "Nem lehet üres";
             }
+            else if(!preg_match("/^a-zA-Z-' ]*$/", $name)){
+                $this->userNameError = "Nem tartalmazhat ékezetes betűket";
+            }
+            else{
+                $this->userNameError = "";
+            }
 
             if(empty($pw)){
                 $this->passwordError = "Nem lehet üres";
