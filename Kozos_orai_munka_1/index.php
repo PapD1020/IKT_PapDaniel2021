@@ -13,10 +13,6 @@
     <title>KOM1 - Front page</title>
 </head>
 <body>
-    <?php
-
-    ?>
-
     <div class="container border_bottom">
         <div class="row justify-content-md-center bold_style to_center padding10">
             <div class="col col-lg-2">
