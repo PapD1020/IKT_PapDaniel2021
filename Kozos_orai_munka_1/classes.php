@@ -42,6 +42,7 @@
                 $this->passwordError = "8 és 16 karakterhusszú legyen a jelszó! Töröljön ki $remaining2 karaktert. Jelszó hossz: $lenght";
             }
             else{
+                $this->password = $pw;
                 $this->passwordError = "";
             }
         }
@@ -81,6 +82,13 @@
 
     //Származtatott osztály 02 - reg űrlap validálásához
     class RegCheck extends Forms{
+        protected $userEmail;
+        protected $fullName;
 
+        function __construct($name, $pw, $email, $fn){
+            $this->userName = $name;
+            $this->password = $pw;
+            $this->userEmail = $email;
+            $this->fullName = $fn;
     }
 ?>

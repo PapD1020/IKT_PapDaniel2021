@@ -13,7 +13,7 @@
 <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="POST">
     <div class="mb-3">
         <label class="form-label bold_style">User name</label>
-        <input type="text" class="form-control" name="userName1" placeholder="">
+        <input type="text" class="form-control" name="userName1" value="<?php echo $log->getUserName();?>" placeholder="">
         <small class="form-text text-muted" name="userInfo1"><?php echo $log->getUserNameError();?></small>
     </div>
     <div class="mb-3">
