@@ -21,15 +21,28 @@
             if(empty($name)){
                 $this->userNameError = "Nem lehet üres";
             }
-            else if(!preg_match("/^a-zA-Z-' ]*$/", $name)){
+            else if(!preg_match("/^[a-zA-Z-' ]*$/", $name)){
                 $this->userNameError = "Nem tartalmazhat ékezetes betűket";
             }
             else{
                 $this->userNameError = "";
             }
 
+            $lenght = strlen($pw);
             if(empty($pw)){
                 $this->passwordError = "Nem lehet üres";
+            }
+            else if(strlen($pw) < 8){
+                $remaining = $lenght - 8;
+                $remaining = $remaining * -1;
+                $this->passwordError = "8 és 16 karakterhusszú legyen a jelszó! Még $remaining karakter hiányzik. Jelszó hossz: $lenght";
+            }
+            else if(strlen($pw) > 16){
+                $remaining2 = $lenght - 16;
+                $this->passwordError = "8 és 16 karakterhusszú legyen a jelszó! Töröljön ki $remaining2 karaktert. Jelszó hossz: $lenght";
+            }
+            else{
+                $this->passwordError = "";
             }
         }
         /**
