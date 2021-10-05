@@ -17,6 +17,14 @@
         function __construct($name, $pw){
             $this->userName = $name;
             $this->password = $pw;
+
+            if(empty($name)){
+                $this->userNameError = "Nem lehet üres";
+            }
+
+            if(empty($pw)){
+                $this->passwordError = "Nem lehet üres";
+            }
         }
         /**
          * Get the value of userName
