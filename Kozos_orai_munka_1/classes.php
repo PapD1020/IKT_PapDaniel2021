@@ -90,5 +90,6 @@
             $this->password = $pw;
             $this->userEmail = $email;
             $this->fullName = $fn;
+        }
     }
 ?>
