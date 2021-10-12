@@ -36,11 +36,13 @@ body{
 .border_bottom{
     border-bottom: 5px;
     border-color: black;
+    border-style: solid;
 }
 
 .border_top{
     border-top: 5px;
     border-color: black;
+    border-style: solid;
 }
 
 .inactiveButton{

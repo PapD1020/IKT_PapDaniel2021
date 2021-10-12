@@ -29,7 +29,7 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-8 to_center">
                 <p>Content</p>
             </div>
 
