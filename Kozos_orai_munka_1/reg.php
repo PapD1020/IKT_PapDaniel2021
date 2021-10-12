@@ -22,9 +22,8 @@
                 <div class="mb-3">
                     <label for="formGroupExampleInput5" class="form-label bold_style">Password again</label>
                     <input type="password" class="form-control" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,16}" id="userPasswordInput2" required placeholder="Password again" title="The two passwords must be identical!">
-                    <div class="padding_top5" id="msg"></div><!--Jeszó vizsgálat eredményének a megjelenítése-->
                 </div>
-
+                <div class="mb-2" id="msg"></div><!--Jeszó vizsgálat eredményének a megjelenítése-->
                 <div>
                     <button id="registerButton" type="submit" class="btn btn-primary bold_style">Register</button>
                     <a class="inactiveButton" href="index.php?id=log">Login</a>
@@ -37,11 +36,12 @@
     //Az első jelszó mező id="Password"
     //A A második jelszó mező id="ConfirmPassword"
     $(document).ready(function(){
+        $("#msg").html("⠀");
         $("#userPasswordInput2").keyup(function(){
              if ($("#userPasswordInput").val() != $("#userPasswordInput2").val()) {
-                 $("#msg").html("Password do not match").css(style_error);
+                 $("#msg").html("Passwords do not match").css(style_error);
              }else{
-                 $("#msg").html("Password matched").css(style_ok);
+                 $("#msg").html("Passwords matched").css(style_ok);
             }
       });
     });
