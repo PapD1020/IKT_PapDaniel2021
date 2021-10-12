@@ -49,6 +49,7 @@ body{
     background-color: #2e2be2;
 }
 
+/*nem működnek*/
 .border_bottom{
     border-bottom: 5px;
     border-color: black;
@@ -59,6 +60,7 @@ body{
     border-top: 5px;
     border-color: black;
     border-style: solid;
+    border: 5px solid black;
 }
 
 .inactiveButton{
