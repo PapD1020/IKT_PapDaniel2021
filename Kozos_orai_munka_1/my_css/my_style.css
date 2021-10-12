@@ -25,6 +25,10 @@ body{
     padding: 10px;
 }
 
+.padding_top5{
+    padding-top: 5px;
+}
+
 .backgroundColor1{
     background-color: #e22bdf;
 }

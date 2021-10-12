@@ -22,7 +22,7 @@
                 <div class="mb-3">
                     <label for="formGroupExampleInput5" class="form-label bold_style">Password again</label>
                     <input type="password" class="form-control" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,16}" id="userPasswordInput2" required placeholder="Password again" title="The two passwords must be identical!">
-                    <div id="msg"></div><!--Jeszó vizsgálat eredményének a megjelenítése-->
+                    <div class="padding_top5" id="msg"></div><!--Jeszó vizsgálat eredményének a megjelenítése-->
                 </div>
 
                 <div>
@@ -39,10 +39,20 @@
     $(document).ready(function(){
         $("#userPasswordInput2").keyup(function(){
              if ($("#userPasswordInput").val() != $("#userPasswordInput2").val()) {
-                 $("#msg").html("Password do not match").css("color","red");
+                 $("#msg").html("Password do not match").css(style_error);
              }else{
-                 $("#msg").html("Password matched").css("color","green");
+                 $("#msg").html("Password matched").css(style_ok);
             }
       });
     });
+
+    var style_error = {
+        color: "#ff5e00",
+        fontWeight: "bold"
+    };
+
+    var style_ok = {
+        color: "lime",
+        fontWeight: "bold"
+    };
 </script>
