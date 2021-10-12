@@ -1,12 +1,12 @@
         <form action="reg.php">
             <div class="mb-3">
                     <label for="formGroupExampleInput" class="form-label bold_style">User name</label>
-                    <input type="text" class="form-control" id="userNameInput" required placeholder="Unknown User">
+                    <input type="text" class="form-control" id="userNameInput" pattern="[a-zA-Z'-'\s]*" required placeholder="Unknown User">
                     <small class="form-text text-muted" name="userInfo1"></small>
                 </div>
                 <div class="mb-3">
                     <label for="formGroupExampleInput2" class="form-label bold_style">Email</label>
-                    <input type="email" class="form-control" id="userEmailInput" required placeholder="email@email.com">
+                    <input type="email" class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" id="userEmailInput" required placeholder="email@email.com">
                     <small class="form-text text-muted" name="userInfo1"></small>
                 </div>
                 <div class="mb-3">
