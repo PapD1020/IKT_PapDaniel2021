@@ -12,13 +12,13 @@ body{
 .content_color{
    /* background-color: #7d8491;
     opacity: 0.7;*/
-    background-color: #eaf0ce;
+    background-image: linear-gradient(#eaf0ce, #f8faef);
     opacity: 0.9;
 }
 
 .text_color1{
     color: #574b60;
-	text-shadow: 6px 6px 10px #3f334d;
+	text-shadow: 6px 2px 10px #3f334d;
 }
 
 .text_color2{

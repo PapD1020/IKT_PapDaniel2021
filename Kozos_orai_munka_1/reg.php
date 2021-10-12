@@ -52,7 +52,7 @@
     };
 
     var style_ok = {
-        color: "lime",
+        color: "#41c300",
         fontWeight: "bold"
     };
 </script>

@@ -14,7 +14,7 @@
     <title>KOM1 - Front page</title>
 </head>
 <body>
-    <div class="container header_footer_color w-50 shadow-lg rounded mt-3">
+    <div class="container header_footer_color w-50 shadow-lg rounded-lg mt-3">
         <div class="row justify-content-md-center text_color1 bold_style to_center padding10">
             <div class="col col-lg-3">
                 Logo
@@ -47,7 +47,7 @@
         </div>
     </div>
 
-    <div class="container header_footer_color w-50 fixed-bottom rounded shadow-lg mb-3">
+    <div class="container header_footer_color w-50 fixed-bottom rounded-lg shadow-lg mb-3">
         <div class="row justify-content-md-center text_color1 bold_style to_center padding10">
             <div class="col col-lg-3">
                 Privacy policy
