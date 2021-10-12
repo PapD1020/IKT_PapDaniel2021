@@ -1,5 +1,21 @@
 body{
-    background-color: blueviolet;
+    background-color: #eaf0ce;
+}
+
+.header_footer_color{
+    background-color: #c0c5c1;
+}
+
+.content_color{
+    background-color: #7d8491;
+}
+
+.text_color1{
+    color: #574b60;
+}
+
+.color5{
+    background-color: #3f334d;
 }
 
 .a{
@@ -81,3 +97,6 @@ body{
     color: orangered;
 }
 
+.btn-primary{
+    border-color: #3f334d !important;
+}
