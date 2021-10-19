@@ -92,4 +92,28 @@
             $this->fullName = $fn;
         }
     }
+
+    class Connection{
+        private $servername;
+        private $username;
+        private $pw;
+        private $db;
+        private $conn;
+
+        public function getConn(){
+            return $this->conn;
+        }
+
+        function __construct(){
+            $this->servername = "localhost";
+            $this->username = "root";
+            $this->pw = "";
+            $this->db = "projekt1";
+            $this->db = msqli_connect($this->servername, $this->username, $this->password, $this->db);
+
+            if($this->conn->connect_error){
+                die("Connection failed: " . $this->conn->connect_error);
+            }
+        }
+    }
 ?>
