@@ -1,4 +1,11 @@
-        <form action="reg.php">
+<?php
+    include('classes.php');
+    if($_SERVER['REQUEST_METHOD'] == 'POST'){
+        $con = new Connection();
+        $reg = new RegCheck($_POST['userName'], $_POST['password'], $_POST['fullName'], $_POST['userEmail']);
+    }
+?>
+        <form action="<?php echo $_SERVER['PHP_SELF'];?>id=reglap" method="POST">
             <div class="mb-3">
                     <label for="formGroupExampleInput" class="form-label text_color1 bold_style">User name</label>
                     <input type="text" class="form-control" id="userNameInput" pattern="[a-zA-Z'-'\s]*" required placeholder="Unknown User">

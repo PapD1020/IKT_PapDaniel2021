@@ -87,9 +87,25 @@
 
         function __construct($name, $pw, $email, $fn){
             $this->userName = $name;
-            $this->password = $pw;
+            $this->password = md5($pw);
             $this->userEmail = $email;
             $this->fullName = $fn;
+
+            /*$sql = "INSERT INTO `users` (`Uname`, `Email`, `Pass`, `Name`, `Active`, `Rank`, `Ban`, `Reg_Time`, `Login_Time`) VALUES
+            ('".$this->getUserName()."', '".$this->getUserEmail()."', '".$this->getPassword()."', '".$this->getFullName()."',0, 0, 0,'".date('Y-m-d-H-i')."', '0')";*/
+            $sql = "INSERT INTO `users` (`Uname`, `Email`, `Pass`, `Name`, `Active`, `Rank`, `Ban`, `Reg_Time`, `Login_Time`) VALUES
+            ('Pap', '".$this->getUserEmail()."', '".$this->getPassword()."', '".$this->getFullName()."',0, 0, 0,'".date('Y-m-d-H-i')."', '0')";
+
+            $c = new Connection();
+            if(mysqli_query($c->getConn(), $sql)){
+                echo "Új rekord feltöltése sikeres volt";
+            }
+            else{
+                echo "Error " .$sql. "<br>" . mysqli_error($c->getConn());
+            }
+
+            mysqli_close($c->getConn());
+            header('location: index.php');
         }
     }
 
@@ -108,12 +124,52 @@
             $this->servername = "localhost";
             $this->username = "root";
             $this->pw = "";
-            $this->db = "projekt1";
+            $this->db = "gyak1";
             $this->conn = msqli_connect($this->servername, $this->username, $this->password, $this->db);
 
             if($this->conn->connect_error){
                 die("Connection failed: " . $this->conn->connect_error);
             }
+        }
+
+        /**
+         * Get the value of userEmail
+         */ 
+        public function getUserEmail()
+        {
+                return $this->userEmail;
+        }
+
+        /**
+         * Set the value of userEmail
+         *
+         * @return  self
+         */ 
+        public function setUserEmail($userEmail)
+        {
+                $this->userEmail = $userEmail;
+
+                return $this;
+        }
+
+        /**
+         * Get the value of fullName
+         */ 
+        public function getFullName()
+        {
+                return $this->fullName;
+        }
+
+        /**
+         * Set the value of fullName
+         *
+         * @return  self
+         */ 
+        public function setFullName($fullName)
+        {
+                $this->fullName = $fullName;
+
+                return $this;
         }
     }
 ?>
