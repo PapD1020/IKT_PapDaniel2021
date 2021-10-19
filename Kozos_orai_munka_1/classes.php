@@ -109,7 +109,7 @@
             $this->username = "root";
             $this->pw = "";
             $this->db = "projekt1";
-            $this->db = msqli_connect($this->servername, $this->username, $this->password, $this->db);
+            $this->conn = msqli_connect($this->servername, $this->username, $this->password, $this->db);
 
             if($this->conn->connect_error){
                 die("Connection failed: " . $this->conn->connect_error);
