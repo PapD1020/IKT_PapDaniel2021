@@ -18,7 +18,6 @@ namespace AutokereskedesGUI
             InitializeComponent();
         }
 
-        string[] stringItems;
         List<Auto> autoList = new List<Auto>();
         private void button3_Click(object sender, EventArgs e)
         {
@@ -30,6 +29,29 @@ namespace AutokereskedesGUI
             auto.rendszam = textBox5.Text;
 
             //csak a rendszámot kell ellenőrizni
+            string[] autoAdatTomb;
+            string autoItem = "";
+            bool vane = false;
+
+            foreach (var item in listBox1.Items)
+            {
+                autoItem = item.ToString();
+                autoAdatTomb = autoItem.Split(';');
+                if(textBox5.Text == autoAdatTomb[4])
+                {
+                    vane = true;
+                }
+            }
+
+            if(vane == true)
+            {
+                MessageBox.Show("Már létezik ilyen autó");
+            }
+            else
+            {
+                listBox1.Items.Add(auto.marka);
+            }
+
         }
 
         private void megnyitásToolStripMenuItem_Click(object sender, EventArgs e)
