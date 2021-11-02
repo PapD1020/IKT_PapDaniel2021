@@ -18,6 +18,8 @@ namespace AutokereskedesGUI
             InitializeComponent();
         }
 
+        string[] stringItems;
+        List<Auto> autoList = new List<Auto>();
         private void button3_Click(object sender, EventArgs e)
         {
             Auto auto = new Auto();
@@ -27,7 +29,24 @@ namespace AutokereskedesGUI
             auto.szin = textBox4.Text;
             auto.rendszam = textBox5.Text;
 
-            listBox1.Items.Add(auto.marka + ";" + auto.tipus + ";" + auto.gyartas_eve + ";" + auto.szin + ";" + auto.rendszam);
+            //csak a rendszámot kell ellenőrizni
+        }
+
+        private void megnyitásToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog o = new OpenFileDialog();
+            string filename = o.FileName;
+            listBox1.Items.Clear();
+            StreamReader sr = new StreamReader(filename);
+            while (!sr.EndOfStream)
+            {
+                listBox1.Items.Add(sr.ReadLine());
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
