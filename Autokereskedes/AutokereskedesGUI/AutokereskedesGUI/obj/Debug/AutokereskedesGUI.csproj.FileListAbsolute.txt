@@ -1,0 +1,10 @@
+C:\Users\Tanulo\Pap Dániel\IKT_git\Autokereskedes\AutokereskedesGUI\AutokereskedesGUI\obj\Debug\AutokereskedesGUI.csproj.AssemblyReference.cache
+C:\Users\Tanulo\Pap Dániel\IKT_git\Autokereskedes\AutokereskedesGUI\AutokereskedesGUI\obj\Debug\AutokereskedesGUI.Form1.resources
+C:\Users\Tanulo\Pap Dániel\IKT_git\Autokereskedes\AutokereskedesGUI\AutokereskedesGUI\obj\Debug\AutokereskedesGUI.Properties.Resources.resources
+C:\Users\Tanulo\Pap Dániel\IKT_git\Autokereskedes\AutokereskedesGUI\AutokereskedesGUI\obj\Debug\AutokereskedesGUI.csproj.GenerateResource.cache
+C:\Users\Tanulo\Pap Dániel\IKT_git\Autokereskedes\AutokereskedesGUI\AutokereskedesGUI\obj\Debug\AutokereskedesGUI.csproj.CoreCompileInputs.cache
+C:\Users\Tanulo\Pap Dániel\IKT_git\Autokereskedes\AutokereskedesGUI\AutokereskedesGUI\bin\Debug\AutokereskedesGUI.exe.config
+C:\Users\Tanulo\Pap Dániel\IKT_git\Autokereskedes\AutokereskedesGUI\AutokereskedesGUI\bin\Debug\AutokereskedesGUI.exe
+C:\Users\Tanulo\Pap Dániel\IKT_git\Autokereskedes\AutokereskedesGUI\AutokereskedesGUI\bin\Debug\AutokereskedesGUI.pdb
+C:\Users\Tanulo\Pap Dániel\IKT_git\Autokereskedes\AutokereskedesGUI\AutokereskedesGUI\obj\Debug\AutokereskedesGUI.exe
+C:\Users\Tanulo\Pap Dániel\IKT_git\Autokereskedes\AutokereskedesGUI\AutokereskedesGUI\obj\Debug\AutokereskedesGUI.pdb
