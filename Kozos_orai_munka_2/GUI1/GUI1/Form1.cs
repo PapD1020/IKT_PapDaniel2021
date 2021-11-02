@@ -24,7 +24,14 @@ namespace GUI1
 
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Csak string");
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int a = Convert.ToInt32(textBox1.Text);
+            int b = Convert.ToInt32(textBox2.Text);
+            MessageBox.Show((a + b).ToString());
         }
     }
 }
