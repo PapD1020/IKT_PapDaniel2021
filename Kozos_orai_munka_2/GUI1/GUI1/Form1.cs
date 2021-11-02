@@ -21,5 +21,10 @@ namespace GUI1
         {
 
         }
+
+        private void openToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Csak string");
+        }
     }
 }
