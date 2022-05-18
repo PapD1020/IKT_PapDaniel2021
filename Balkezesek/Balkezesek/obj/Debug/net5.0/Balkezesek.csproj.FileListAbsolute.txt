@@ -1,0 +1,17 @@
+C:\Users\papda\Source\Repos\Balkezesek\Balkezesek\bin\Debug\net5.0\Balkezesek.exe
+C:\Users\papda\Source\Repos\Balkezesek\Balkezesek\bin\Debug\net5.0\balkezesek.csv
+C:\Users\papda\Source\Repos\Balkezesek\Balkezesek\bin\Debug\net5.0\Balkezesek.deps.json
+C:\Users\papda\Source\Repos\Balkezesek\Balkezesek\bin\Debug\net5.0\Balkezesek.runtimeconfig.json
+C:\Users\papda\Source\Repos\Balkezesek\Balkezesek\bin\Debug\net5.0\Balkezesek.runtimeconfig.dev.json
+C:\Users\papda\Source\Repos\Balkezesek\Balkezesek\bin\Debug\net5.0\Balkezesek.dll
+C:\Users\papda\Source\Repos\Balkezesek\Balkezesek\bin\Debug\net5.0\Balkezesek.pdb
+C:\Users\papda\Source\Repos\Balkezesek\Balkezesek\obj\Debug\net5.0\Balkezesek.csproj.AssemblyReference.cache
+C:\Users\papda\Source\Repos\Balkezesek\Balkezesek\obj\Debug\net5.0\Balkezesek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\papda\Source\Repos\Balkezesek\Balkezesek\obj\Debug\net5.0\Balkezesek.AssemblyInfoInputs.cache
+C:\Users\papda\Source\Repos\Balkezesek\Balkezesek\obj\Debug\net5.0\Balkezesek.AssemblyInfo.cs
+C:\Users\papda\Source\Repos\Balkezesek\Balkezesek\obj\Debug\net5.0\Balkezesek.csproj.CoreCompileInputs.cache
+C:\Users\papda\Source\Repos\Balkezesek\Balkezesek\obj\Debug\net5.0\Balkezesek.dll
+C:\Users\papda\Source\Repos\Balkezesek\Balkezesek\obj\Debug\net5.0\refint\Balkezesek.dll
+C:\Users\papda\Source\Repos\Balkezesek\Balkezesek\obj\Debug\net5.0\Balkezesek.pdb
+C:\Users\papda\Source\Repos\Balkezesek\Balkezesek\obj\Debug\net5.0\Balkezesek.genruntimeconfig.cache
+C:\Users\papda\Source\Repos\Balkezesek\Balkezesek\obj\Debug\net5.0\ref\Balkezesek.dll
